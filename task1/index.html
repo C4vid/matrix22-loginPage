@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap" rel="stylesheet">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./style.css    ">
+</head>
+<body>
+    <div class="container">
+        <div class="login-section">
+            <a href="./index.html">Login</a>
+            <form>
+                <div class="inputBox">
+                    <input type="text" id="username" name="username"  required>
+                    <label for="username">username</label>
+                </div>
+                <div class="inputBox">
+                    <input type="password" id="password" name="password" required>
+                    <label for="password">Password</label>
+
+                </div>
+                <button id="login-btn">Login</button>
+                <p id="error-msg"></p>
+            </form>
+            <button id="mode-btn">Toggle Change Mode</button>
+        </div>
+        <div class="welcome-msg" style="display: none;">
+            <h2 id="welcome-header"></h2>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
